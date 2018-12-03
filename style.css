@@ -1,0 +1,16 @@
+.menu{
+	width:70%;
+	margin:auto;
+}
+.botones{
+	width:30%;
+	font-family: verdana;
+	font-size:30px;
+	color: white;
+	background-color:orange;
+}
+@media only screen and (max-width: 700px){
+	.botones{
+		font-size:20px;
+	}
+}

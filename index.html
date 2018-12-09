@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Bar Cafetería de Las Palmas ubicado en Triana">
-  <meta name="author" content="Cristian Javier Rivero Martín">
-  <meta name="keywords" content="Bar, Cafetería, Las Palmas, Triana">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Café Las Palmas</title>
+  <meta name="description" content="Bar Cafetería de Las Palmas ubicado en Triana"/>
+  <meta name="author" content="Cristian Javier Rivero Martín"/>
+  <meta name="keywords" content="Bar, Cafetería, Las Palmas, Triana"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="icon" href="Images/icono.png" type="image/x-icon"/>
 </head>
 
 <body>
@@ -22,20 +24,113 @@
 			</button>
 		</div>
 	</div>
-	<div class="header">
-		
-	</div>
+
 	<div class="cuerpo">
-		<h1>
-			Bienvenido
+		<h1 id="inicio">
+			Bienvenido a Cafetería Las Palmas
 		</h1>
-		<img src="pulguita.jpg" alt="imagen">
+		<hr id="separadorh1"/>
+		<img src="Images/pulguita.jpg" alt="imagen"/>
 		<div class="listas">
+			<ul>
+				<li>Sabor</li>
+				<li>Buen trato</li>
+				<li>¡Y mucha alegría!</li>
+			</ul>
+			<h2>
+				¿Cómo lo logramos? Muy sencillo:
+			</h2>
+			<ol>
+				<li>Elegimos los ingredientes más frescos </li>
+				<li>Los cocinamos con mucho cariño </li>
+				<li>Y los servimos con la mejor de nuestras sonrisas </li>
+			</ol>
+			<h2>
+				~ Ofertas de grupo ~
+			</h2>
+			<hr/>
+			<p>
+				En cafetería Las Palmas, queremos proporcionar un ambiente cálido, cómodo y familiar.
+			</p>
+			<p>
+				¡Por ello, tenemos ofertas para aquellos que decidan venir con sus amigos, familiares y parejas!
+			</p>
+			<hr/>
+			<table>
+				<tr>
+					<td colspan="5">
+						Ofertas según personas (acumulable)
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						4
+					</td>
+					<td>
+						5
+					</td>
+					<td>
+						6-7
+					</td>
+					<td>
+						8+
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3% Descuento
+					</td>
+					<td>
+						7% Descuento
+					</td>
+					<td>
+						Postre gratuito
+					</td>
+					<td>
+						Bebida gratis
+					</td>
+					<td>
+						Botella de vino gratuita por cada 8 personas.
+					</td>
+				</tr>
+			</table>
+			<span id="reserva">
+				¿Quieres reservar? ¡Contáctanos!
+			</span>
+		</div>
 		
+		<div class="formulario">
+			<form action="http://www.ieselrincon.org/resultado.php" method="get">
+				<div>
+					<span>
+						<input type="text" name="nombre" value="Nombre"/>
+					</span>
+					<span>
+						<input type="text" name="telefono" value="Teléfono"/>
+					</span>
+					
+					<span id="persona">
+						<input class="radioPersonas" type="radio"/>3 Personas
+						<input class="radioPersonas" type="radio"/>4 Personas
+						<input class="radioPersonas" type="radio"/>5 Personas
+						<input class="radioPersonas" type="radio"/>6-7 Personas
+						<input class="radioPersonas" type="radio"/>8+ Personas
+					</span>
+					<span>
+						<input type="submit" value="Reservar"/>
+					</span>
+				</div>
+			</form>
 		</div>
 	</div>
 	<div class="footer">
-		Copyright. 2018. Todos los derechos reservados.
+		Copyright. 2018. Todos los derechos reservados. Propiedad de Cristian Javier Rivero Martín
+		<p>
+			<a href="#inicio">Volver al inicio.</a> <a href="https://es.wikipedia.org/wiki/Cafeter%C3%ADa">Saber más sobre cafeterías.</a>
+		</p>
 	</div>
 	
 </body>
